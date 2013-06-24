@@ -1,7 +1,7 @@
 // $(document).on("ready", init, loop );
 
 
-function init () {
+function tabzilla () {
     $.getJSON("main/js/tabzilla.json",function(data){
 
         $.each(data.mz_ele, function( key, val ) {
@@ -35,7 +35,7 @@ function loop (){
 
 $(document).ready(function() {
 
-    init();
+    // tabzilla();
     loop();
 
 });
