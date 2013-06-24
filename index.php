@@ -1,7 +1,7 @@
 <?php
-  /* Short and sweet */
-  define('WP_USE_THEMES', false);
-  require('./blog/wp-blog-header.php');
+  // /* Short and sweet */
+  // define('WP_USE_THEMES', false);
+  // require('./blog/wp-blog-header.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,8 +28,8 @@
       <header id="header">
       	<a href="http://www.mozilla.org/" id="tabzilla" data-locale="es-ES">mozilla</a>
         <div id="logo-mc"></div>
-        <h1><?php echo get_bloginfo('name'); ?></h1>
-        <h2><?php echo get_bloginfo('description'); ?></h2>
+        <h1><?php //echo get_bloginfo('name'); ?></h1>
+        <h2><?php //echo get_bloginfo('description'); ?></h2>
       </header>
       <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 			Contenido     :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
