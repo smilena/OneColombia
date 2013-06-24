@@ -20,6 +20,7 @@ define('WP_USE_THEMES', false);require('./blog/wp-blog-header.php');
 
   </head>
   <body>
+    test
     <div id="wrap">
       <header id="header">
       	<a href="http://www.mozilla.org/" id="tabzilla" data-locale="es-ES">mozilla</a>
