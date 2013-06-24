@@ -1,6 +1,9 @@
-<?php /* Short and sweet */
-define('WP_USE_THEMES', false);require('./blog/wp-blog-header.php');
-?><!DOCTYPE html>
+<?php
+  /* Short and sweet */
+  define('WP_USE_THEMES', false);
+  require('./blog/wp-blog-header.php');
+?>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
