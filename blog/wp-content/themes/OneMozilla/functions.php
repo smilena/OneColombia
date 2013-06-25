@@ -1,6 +1,4 @@
 <?php
-update_option('siteurl','http://desarrollo.mozillacolombia.org/blog');
-update_option('home','http://desarrollo.mozillacolombia.org/blog');
 if ( ! function_exists( 'onemozilla_setup' ) ):
 /**
  * Sets up theme defaults and registers support for various WordPress features.
