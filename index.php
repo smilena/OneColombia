@@ -27,7 +27,7 @@
       <header id="header">
       	<a href="http://www.mozilla.org/" id="tabzilla" data-locale="es-ES">mozilla</a>
         <div id="logo-mc"></div>
-        <h1><?php //echo get_bloginfo('name'); ?></h1>
+        <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php //echo get_bloginfo('description'); ?></h2>
       </header>
       <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
