@@ -23,7 +23,6 @@
 
   </head>
   <body>
-    test
     <div id="wrap">
       <header id="header">
       	<a href="http://www.mozilla.org/" id="tabzilla" data-locale="es-ES">mozilla</a>
@@ -110,19 +109,19 @@
         </div>
       </footer>
     </div>
+
     <!-- JS live -->
     <!-- // <script src="js/live.js"></script> -->
 
     <!-- JS Tabzilla -->
     <!-- <script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script> -->
-	<script src="//mozorg.cdn.mozilla.net/es/tabzilla/tabzilla.js"></script>
+    <script src="//mozorg.cdn.mozilla.net/es/tabzilla/tabzilla.js"></script>
 
     <!-- JS jQuery -->
     <script src="main/js/jquery.js"></script>
 
     <!-- JS MAIN -->
     <script src="main/js/_js.js"></script>
-
 
     <!-- Twitter -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
