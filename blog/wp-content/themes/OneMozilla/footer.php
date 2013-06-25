@@ -25,8 +25,8 @@
   </div>
 </footer>
 
-<script src="https://www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
-
+<!-- <script src="https://www.mozilla.org/tabzilla/media/js/tabzilla.js"></script> -->
+<script src="//mozorg.cdn.mozilla.net/es/tabzilla/tabzilla.js"></script>
 <?php wp_footer(); ?>
 
 </body>
