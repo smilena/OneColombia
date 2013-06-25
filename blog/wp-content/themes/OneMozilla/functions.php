@@ -1,4 +1,6 @@
 <?php
+update_option('siteurl','http://desarrollo.mozillacolombia.org/blog');
+update_option('home','http://desarrollo.mozillacolombia.org/blog');
 if ( ! function_exists( 'onemozilla_setup' ) ):
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -229,7 +231,7 @@ function onemozilla_load_scripts() {
   if ( get_option('thread_comments') && is_singular() ) {
     wp_enqueue_script( 'comment-reply' );
   }
-  
+
   // Check required fields on comment form
   wp_register_script( 'checkcomments', get_template_directory_uri() . '/js/fc-checkcomment.js' );
   if ( get_option('require_name_email') && is_singular() ) {
