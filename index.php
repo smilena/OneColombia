@@ -23,13 +23,12 @@
 
   </head>
   <body>
-    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 50
     <div id="wrap">
       <header id="header">
       	<a href="http://www.mozilla.org/" id="tabzilla" data-locale="es-ES">mozilla</a>
         <div id="logo-mc"></div>
         <h1><?php echo get_bloginfo('name'); ?></h1>
-        <h2><?php //echo get_bloginfo('description'); ?></h2>
+        <h2><?php echo get_bloginfo('description'); ?></h2>
       </header>
       <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 			Contenido     :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
@@ -56,6 +55,7 @@
         </nav>
         <a href="" class="button_colabora">COLABORA &nbsp;►</a>
         <!-- Tweeter -->
+        <a class="twitter-timeline"  href="https://twitter.com/Migueldavidq/mozilla"  data-widget-id="346747120050659331" data-tweet-limit="1" width="300px" height="300px"  data-chrome="nofooter noheader" ></a>
       </div>
       <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 			Comunidad	 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
