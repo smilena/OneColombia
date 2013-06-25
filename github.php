@@ -1,1 +1,1 @@
-<?php `git pull`;
+<?php `git pull chown -R mozcolombia:mozcolombia .`;
