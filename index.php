@@ -37,11 +37,11 @@
         <div id="banner-news"></div>
         <nav>
           <ul>
-            <a href="">
+            <a href="http://desarrollo.mozillacolombia.org/blog/objetivo">
               <li><span class="box-one"></span> Objetivo </li>
             </a> <a href="">
               <li><span class="box-two"></span> Comunidad </li>
-            </a> <a href="">
+            </a> <a href="http://desarrollo.mozillacolombia.org/blog/web-abierta">
               <li><span class="box-tree"></span> Web Abierta </li>
             </a> <a href="">
               <li><span class="box-four"></span> Blog </li>
