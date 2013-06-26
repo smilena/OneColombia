@@ -1,4 +1,11 @@
+### General
+    - Link Titulo: Se cambio en el archivo masthead.php
+    - Tabzilla: El idioma de cambio en footer.php
 
-- Link Titulo: Se cambio en el archivo masthead.php
-- Tabzilla: El idioma de cambio en footer.php
 
+### Web Abierta.
+    - Se oculto la fecha de creacion con CSS en style.css
+
+
+### Objetivos.
+    - Se oculto la fecha de creacion con CSS en style.css
