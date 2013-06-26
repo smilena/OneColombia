@@ -1,7 +1,10 @@
 <?php // Do not delete these lines
   if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
     die ('Please do not load this page directly. Thanks!');
-
+  
+  /* Get the number of comments */
+  $comment_count = get_comments_number($post->ID);
+  
   /* This variable is for alternating comment background */
   $oddcomment = 'alt';
 ?>
@@ -73,6 +76,10 @@
           <li id="cmt-web">
             <label for="url"><?php _e('Website', 'onemozilla'); ?></label>
             <input type="url" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" size="25">
+          </li>
+          <li id="cmt-ackbar">
+            <label for="age"><?php _e('Spam robots, please fill in this field. Humans should leave it blank.', 'onemozilla'); ?></label>
+            <input type="text" name="age" id="age" size="4" tabindex="-1">
           </li>
         <?php endif; ?>
           <li id="cmt-cmt"><label for="comment"><?php _e('Your comment', 'onemozilla'); ?></label> <textarea name="comment" id="comment" cols="50" rows="10"></textarea></li>
