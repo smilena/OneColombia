@@ -31,7 +31,7 @@
   <link rel="copyright" href="#colophon">
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="shortcut icon" type="image/ico" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico">
-  <?php if ( $theme_options['share_posts'] == 1 ) : ?>
+  <?php if ( get_option('onemozilla_share_posts') == 1 ) : ?>
   <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/css/socialshare.css">
   <?php endif; ?>
   <link rel="stylesheet" type="text/css" media="screen,projection" href="<?php bloginfo('stylesheet_url'); ?>">
@@ -54,22 +54,11 @@
     else { wp_title(''); echo ' | '; bloginfo('name'); fc_page_number(); }
   ?></title>
 
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-36116321-4']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
   <?php if ( is_singular() && get_option( 'thread_comments' ) ) { wp_enqueue_script( 'comment-reply' ); } ?>
   <?php wp_head(); ?>
 </head>
 
-<body <?php body_class($theme_options[color_scheme]); ?> role="document">
+<body <?php body_class($theme_options[color_scheme]); ?>>
 <div id="page"><div class="wrap">
   <nav id="nav-access">
     <ul role="navigation">
@@ -85,4 +74,4 @@
 
   <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => 'nav', 'container_id' => 'nav-primary', 'fallback_cb' => 'false', ) ); ?>
 
-  <div id="content">
+  <main id="content">
