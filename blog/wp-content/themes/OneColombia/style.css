@@ -20,10 +20,10 @@ Version:        1.0
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
       Hide  -> Sidebar, comments
 \* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-#page-id-4 #comments,
-#page-id-4 #content-sub {
+.page-id-4 #comments,
+.page-id-4 #content-sub {
   display: none;
 }
-#page-id-4 #content-main {
+.page-id-4 #content-main {
   width: 100%;
 }
