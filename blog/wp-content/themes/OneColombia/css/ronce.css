@@ -13,7 +13,7 @@ html {
 
 #page {
   background-color: #edeeed;
-  background-image: url("img/bg_red_col.png") !important;
+  background-image: url("../img/bg_red_col.png") !important;
 }
 
 #site-description {
@@ -51,5 +51,5 @@ a:active {
 }
 
 .entry-comments a {
-  background-image: url("img/icn-comment.png") !important;
+  background-image: url("../img/icn-comment.png") !important;
 }
