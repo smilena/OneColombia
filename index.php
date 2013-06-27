@@ -39,7 +39,7 @@
           <ul>
             <a href="./blog/objetivo">
               <li><span class="box-one"></span> Objetivo </li>
-            </a> <a href="">
+            </a> <a href="./blog/objetivo">
               <li><span class="box-two"></span> Comunidad </li>
             </a> <a href="./blog/web-abierta">
               <li><span class="box-tree"></span> Web Abierta </li>
