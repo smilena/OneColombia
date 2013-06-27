@@ -7,7 +7,6 @@ if(!defined('DB_NAME')) {
 get_header(); ?>
 
   <div id="content-main" class="main" role="main">
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   <?php if ( is_front_page() && ($paged < 1) ) :
     /* Set up a custom loop for the three most recent featured posts */
     $featured = new WP_Query( array('posts_per_page' => 3, 'meta_key' => '_fc_featuredpost', 'meta_value' => 1) );
