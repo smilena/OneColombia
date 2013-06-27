@@ -52,7 +52,7 @@
             <a href="./blog/sitios-destacados">
               <li><span class="box-five"></span> Sitios Destacados </li>
             </a>
-            <a href="http://www.mozilla-hispano.org/">
+            <a target="_blank" href="http://www.mozilla-hispano.org/">
               <li><span class="box-six"></span></li>
             </a>
           </ul>

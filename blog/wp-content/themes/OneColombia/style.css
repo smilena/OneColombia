@@ -1,4 +1,6 @@
 @import url("../OneMozilla/style.css");
+
+@import url("ronce.css");
 /*
 Theme Name:     OneColombia
 Description:    Site theme for The Mozilla Colombia Comunity. This theme is a child of the One Mozilla WordPress theme.
@@ -15,57 +17,13 @@ Version:        1.0
 #masthead hgroup {
   margin-left: 160px;
 }
-/* Hide Date -> Objetivo, Web Abierta */
-#post-7 .entry-posted,
-#post-13 .entry-posted {
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+      Hide  -> Sidebar, comments
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+#comments,
+#content-sub {
   display: none;
 }
-/*
-"Redcol" - red color scheme for the One Mozilla theme
-
-@@Colors -
-Light Gray    #f9f9f9
-Link          #2983c8
-Hover         #20679e
-*/
-html {
-  background: #f9f9f9;
-}
-#page {
-  background-color: #edeeed;
-  background-image: url("img/bg_red_col.png") !important;
-}
-#site-description {
-  color: #777;
-}
-/* @Links */
-a:link,
-a:visited {
-  color: #2983c8;
-}
-a:hover,
-a:focus,
-a:active {
-  color: #20679e;
-}
-.entry-content a:hover img,
-.entry-content a:focus img,
-.entry-content a:active img {
-  background-color: #20679e;
-}
-#site-title a:hover,
-#site-title a:focus,
-#site-title a:active {
-  color: #20679e;
-}
-::-moz-selection {
-  background: #666;
-  color: #fff;
-}
-::selection {
-  background: #666;
-  color: #fff;
-}
-.entry-comments a {
-  background-image: url("img/icn-comment.png") !important;
+#content-main {
+  width: 100%;
 }
