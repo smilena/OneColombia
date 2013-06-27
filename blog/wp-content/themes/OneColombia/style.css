@@ -1,1 +1,24 @@
-@import url("../OneMozilla/style.css");#masthead{background-position:left top}#masthead hgroup{margin-left:160px}#post-7 .entry-posted,#post-13 .entry-posted{display:none}
+@import url("../OneMozilla/style.css");
+
+@import url("colors/redcol.css");
+/*
+Theme Name:     OneColombia
+Description:    Site theme for The Mozilla Colombia Comunity. This theme is a child of the One Mozilla WordPress theme.
+Author:         Maycoll (MiguelDavidQ)
+Template:       OneMozilla
+Version:        1.0
+*/
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			One Mozilla
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+#masthead {
+  background-position: left top;
+}
+#masthead hgroup {
+  margin-left: 160px;
+}
+/* Hide Date -> Objetivo, Web Abierta */
+#post-7 .entry-posted,
+#post-13 .entry-posted {
+  display: none;
+}
