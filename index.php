@@ -39,17 +39,21 @@
           <ul>
             <a href="./blog/objetivo">
               <li><span class="box-one"></span> Objetivo </li>
-            </a> <a href="./blog/objetivo">
-              <li><span class="box-two"></span> Comunidad </li>
-            </a> <a href="./blog/web-abierta">
+            </a>
+            <a href="./blog/objetivo">
+              <li><span class="box-two"></span> Nuestra Comunidad </li>
+            </a>
+            <a href="./blog/web-abierta">
               <li><span class="box-tree"></span> Web Abierta </li>
-            </a> <a href="">
-              <li><span class="box-four"></span> Blog </li>
-            </a> <a href="">
-              <li><span class="box-five"></span> Comunidades </li>
-            </a> <a href="">
-              <li><span class="box-six"></span> <br>
-              </li>
+            </a>
+            <a href="./blog">
+              <li><span class="box-four"></span> Noticias </li>
+            </a>
+            <a href="./blog/sitios-destacados">
+              <li><span class="box-five"></span> Sitios Destacados </li>
+            </a>
+            <a href="http://www.mozilla-hispano.org/">
+              <li><span class="box-six"></span></li>
             </a>
           </ul>
         </nav>
