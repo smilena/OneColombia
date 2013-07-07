@@ -146,7 +146,8 @@ foreach($pm as $p) {
         print $pc['imagen_miembros'] . "<br>";
 
         $attachment_id = $pc['imagen_miembros'];
-        wp_get_attachment_image( $attachment_id, "full" );
+        $image = wp_get_attachment_image( $attachment_id, "full" );
+        echo $image[0];
         //print_r($pc); // <-- prints out all available fields, both built-in and custom fields
 }
 
