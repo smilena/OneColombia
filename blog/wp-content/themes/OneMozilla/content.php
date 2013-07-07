@@ -23,7 +23,9 @@
     </header>
 
     <div class="entry-content">
-      <?php if (has_post_thumbnail()) { the_post_thumbnail('thumbnail', array('alt' => "", 'title' => "")); } ?>
+      <?php if (has_post_thumbnail()) {
+        //the_post_thumbnail('thumbnail', array('alt' => "", 'title' => ""));
+      } ?>
 
       <?php the_content( __( 'Continue reading &hellip;', 'onemozilla' ) ); ?>
       <?php wp_link_pages( array( 'before' => '<p class="pages" role="navigation"><span>' . __( 'Pages:', 'onemozilla' ) . '</span>', 'after' => '</p>' ) ); ?>
