@@ -9,7 +9,7 @@ get_header(); ?>
     <h1><?php the_title(); ?></h1>
         <?php the_content(); ?>
 
-        <h2>Custom Fields</h2>
+
 
         <strong>Imagen Miembros:</strong> <img src="<?php print_custom_field('imagen_miembros:to_image_src'); ?>" /><br />
 
