@@ -138,22 +138,6 @@
       </footer>
     </div>
 
-<?php
-
-  $pm = get_posts(array('post_type'=>'miembros'));
-
-  foreach($pm as $p) {
-          $pc = get_post_complete($p->ID);
-
-
-
-          print_r( $image = wp_get_attachment_image( $pc['imagen_miembros'], "full" ) );
-          //print_r($pc); // <-- prints out all available fields, both built-in and custom fields
-  }
-
-?>
-
-
 
     <!-- JS live -->
     <!-- // <script src="js/live.js"></script> -->
