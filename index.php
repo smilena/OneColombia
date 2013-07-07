@@ -7,7 +7,11 @@
 <html lang="en">
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <title> Mozilla Colombia | </title>
+    <title> Mozilla Colombia  </title>
+
+    <link rel="icon"
+      type="image/ico"
+      href="favicon.ico" />
 
     <!--  CSS Normalize -->
     <link rel="stylesheet" type="text/css" href="main/css/normalize.css">
