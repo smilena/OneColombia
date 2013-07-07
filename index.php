@@ -133,21 +133,19 @@
 
 <?php
 
-$pm = get_posts(array('post_type'=>'miembros'));
+  $pm = get_posts(array('post_type'=>'miembros'));
 
-foreach($pm as $p) {
-        $pc = get_post_complete($p->ID);
-        // get_post_complete() returns data as an ARRAY, not as an OBJECT!!!
-        // print print_custom_field('imagen_miembros:to_image_src') . "<br>" ;
-        // print $print_custom_field('imagen_miembros');
-        print $pc['post_title'] . "<br>";
-        print $pc['imagen_miembros'] . "<br>";
+  foreach($pm as $p) {
+          $pc = get_post_complete($p->ID);
 
-        $attachment_id = $pc['imagen_miembros'];
-        $image = wp_get_attachment_image( $attachment_id, "full" );
-        print_r( $image );
-        //print_r($pc); // <-- prints out all available fields, both built-in and custom fields
-}
+          // print $pc['post_title'] . "<br>";
+          // print $pc['imagen_miembros'] . "<br>";
+
+          $attachment_id = $pc['imagen_miembros'];
+          $image = wp_get_attachment_image( $attachment_id, "full" );
+          print_r( $image );
+          //print_r($pc); // <-- prints out all available fields, both built-in and custom fields
+  }
 
 ?>
 
