@@ -141,7 +141,7 @@ foreach($pm as $p) {
         $pc = get_post_complete($p->ID);
         // get_post_complete() returns data as an ARRAY, not as an OBJECT!!!
         print print_custom_field('imagen_miembros:to_image_src') . "<br>" ;
-        $print_custom_field('imagen_miembros');
+        print $print_custom_field('imagen_miembros');
         print $pc['post_title'] . "<br>";
         print $pc['imagen_miembros'] . "<br>";
         // print_r($pc); // <-- prints out all available fields, both built-in and custom fields
