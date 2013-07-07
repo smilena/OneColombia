@@ -141,9 +141,8 @@
           // print $pc['post_title'] . "<br>";
           // print $pc['imagen_miembros'] . "<br>";
 
-          $attachment_id = $pc['imagen_miembros'];
-          $image = wp_get_attachment_image( $attachment_id, "full" );
-          print_r( $image );
+
+          print_r( $image = wp_get_attachment_image( $pc['imagen_miembros'], "full" ) );
           //print_r($pc); // <-- prints out all available fields, both built-in and custom fields
   }
 
