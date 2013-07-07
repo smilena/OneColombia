@@ -285,7 +285,7 @@ a:active {
   transform: rotate(360deg);
 }
 .flip {
-  background: url(../img/social/social.png) no-repeat top left;
+  background: url(../img/social/social2.png) no-repeat top left;
 }
 a#twitter-icon {
   background-position: 0 -239px;
