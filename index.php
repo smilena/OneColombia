@@ -76,12 +76,19 @@
 			Comunidad	 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
       <div id="comunity">
         <h4>Comunidad Mozilla</h4>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+<?php
+
+  $pm = get_posts(array('post_type'=>'miembros'));
+
+  foreach($pm as $p) {
+          $pc = get_post_complete($p->ID);
+          echo "<div>";
+          print_r( $image = wp_get_attachment_image( $pc['imagen_miembros'], "full" ) );
+          echo "</div>";
+          //print_r($pc); // <-- prints out all available fields, both built-in and custom fields
+  }
+
+?>
       </div>
       <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 			Productos	 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
@@ -138,8 +145,6 @@
   foreach($pm as $p) {
           $pc = get_post_complete($p->ID);
 
-          // print $pc['post_title'] . "<br>";
-          // print $pc['imagen_miembros'] . "<br>";
 
 
           print_r( $image = wp_get_attachment_image( $pc['imagen_miembros'], "full" ) );
