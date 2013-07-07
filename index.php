@@ -101,7 +101,7 @@ $args = array( 'post_type' => 'miembros', 'posts_per_page' => 6, 'orderby' => 'r
       <div id="products">
         <h4>Productos Mozilla</h4>
         <div id="prod_01"><a href="https://www.mozilla.org/firefox/" target="BLANK"></a></div>
-        <div id="prod_02"><a href="http://www.mozilla.org/en-US/firefox/os/"
+        <div id="prod_02"><a href="http://www.mozilla.org/firefox/os/"
 
             target="BLANK"></a></div>
         <div id="prod_03"><a href="https://www.mozilla.org/apps/" target="BLANK"></a></div>
