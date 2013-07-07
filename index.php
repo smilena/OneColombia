@@ -42,7 +42,7 @@
             $args = array( 'posts_per_page' => 1 );
             $myposts = get_posts( $args );
             foreach( $myposts as $post ) :  setup_postdata($post); ?>
-            <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a>
+            <a id="link_title" href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a>
 
             <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>">
            <?php the_post_thumbnail(array(100)); ?></a>

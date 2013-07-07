@@ -278,7 +278,7 @@ a:active {
   margin-right: 10px;
   width: 380px;
 }
-#banner-news a {
+#banner-news #link_title {
   font-family: "Open Sans Light";
   color: black;
   display: block;
