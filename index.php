@@ -43,6 +43,13 @@
             $myposts = get_posts( $args );
             foreach( $myposts as $post ) :  setup_postdata($post); ?>
             <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a><br />
+
+            <div><?php
+
+echo wp_get_attachment_link( $post->ID, 'thumbnail-size', true );
+             ?> </div>
+
+
             <?php endforeach; ?>
         </div>
         <nav>
@@ -147,5 +154,10 @@
 
     <!-- Twitter -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+    <pre>
+      <?php print_r($post); ?>
+    </pre>
   </body>
 </html>
