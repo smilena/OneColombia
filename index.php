@@ -23,7 +23,13 @@
 
   </head>
   <body>
-    xxxxx
+    <?php
+global $post;
+$args = array( 'posts_per_page' => 3 );
+$myposts = get_posts( $args );
+foreach( $myposts as $post ) :  setup_postdata($post); ?>
+<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a><br />
+<?php endforeach; ?>
     <div id="wrap">
       <header id="header">
       	<a href="http://www.mozilla.org/" id="tabzilla" data-locale="es-ES">mozilla</a>
