@@ -68,7 +68,7 @@
             </a>
           </ul>
         </nav>
-        <a href="" class="button_colabora">COLABORA &nbsp;►</a>
+        <a href="./blog/colabora" class="button_colabora">COLABORA &nbsp;►</a>
         <!-- Tweeter -->
         <a class="twitter-timeline"  href="https://twitter.com/Migueldavidq/mozilla"  data-widget-id="346747120050659331" data-tweet-limit="1" width="300px" height="300px"  data-chrome="nofooter noheader" ></a>
       </div>
