@@ -285,6 +285,10 @@ a:active {
   margin-left: 20px;
   margin-top: 20px;
   width: 201px;
+  float: left;
+}
+#banner-news img {
+  float: left;
 }
 #content {
   position: relative;
