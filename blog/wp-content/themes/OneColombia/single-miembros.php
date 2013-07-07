@@ -11,7 +11,7 @@ get_header(); ?>
 
         <h2>Custom Fields</h2>
 
-        <strong>Imagen:</strong> <img src="<?php print_custom_field('Imagen:to_image_src'); ?>" /><br />
+        <strong>Imagen Miembros:</strong> <img src="<?php print_custom_field('imagen_miembros:to_image_src'); ?>" /><br />
 
 
 
