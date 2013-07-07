@@ -129,9 +129,26 @@
 
         </div>
       </footer>
-
-
     </div>
+
+<div id="text">
+<?php
+
+$pm = get_posts(array('post_type'=>'miembros'));
+
+foreach($pm as $p) {
+        $pc = get_post_complete($p->ID);
+        // get_post_complete() returns data as an ARRAY, not as an OBJECT!!!
+        print $pc['post_title'];
+        print $pc['my_custom_field'];
+        print_r($pc); // <-- prints out all available fields, both built-in and custom fields
+}
+
+?>
+
+</div>
+
+
 
     <!-- JS live -->
     <!-- // <script src="js/live.js"></script> -->
