@@ -132,7 +132,8 @@
     </div>
 
 <div id="text">
-<?php
+  <pre>
+  <?php
 
 $pm = get_posts(array('post_type'=>'miembros'));
 
@@ -145,6 +146,8 @@ foreach($pm as $p) {
 }
 
 ?>
+
+</pre>
 
 </div>
 
