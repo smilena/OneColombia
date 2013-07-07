@@ -23,7 +23,6 @@
 
   </head>
   <body>
-    ttttttttttttt
     <div id="wrap">
       <header id="header">
       	<a href="http://www.mozilla.org/" id="tabzilla" data-locale="es-ES">mozilla</a>
