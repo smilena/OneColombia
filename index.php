@@ -77,7 +77,7 @@
       <div id="products">
         <h4>Productos Mozilla</h4>
         <div id="prod_01"><a href="https://www.mozilla.org/firefox/" target="BLANK"></a></div>
-        <div id="prod_02"><a href="https://www.mozilla.org/firefox/partners/#os"
+        <div id="prod_02"><a href="http://www.mozilla.org/en-US/firefox/os/"
 
             target="BLANK"></a></div>
         <div id="prod_03"><a href="https://www.mozilla.org/apps/" target="BLANK"></a></div>
@@ -85,6 +85,7 @@
         <div id="prod_05"><a href="https://www.mozilla.org/thunderbird/" target="BLANK"></a></div>
         <div id="prod_06"><a href="https://webmaker.org/" target="BLANK"></a></div>
       </div>
+
       <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 			Footer	 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
       <footer id="colophon">
@@ -92,11 +93,13 @@
           <div class="footer-logo"> <a href="/en-US/"> <img alt="mozilla" src="//mozorg.cdn.mozilla.net/media/img/sandstone/footer-mozilla.png"></a>
           </div>
           <div class="footer-license">
-            <p> Portions of this content are ©1998–2013 by individual
+<!--             <p> Portions of this content are ©1998–2013 by individual
               mozilla.org contributors. Content available under a <a href="/foundation/licensing/website-content.html">Creative
                 Commons license</a> . </p>
-            <p> <a href="/en-US/contribute/page/">Contribute to this page</a> </p>
+            <p> <a href="/en-US/contribute/page/">Contribute to this page</a> </p> -->
           </div>
+
+<!--
           <ul class="footer-nav">
             <li> <a href="/en-US/about/contact.html#map-mountain_view">Contact
                 Us</a> </li>
@@ -111,8 +114,12 @@
             <li> <a href="https://affiliates.mozilla.org/">Firefox Affiliates</a>
             </li>
           </ul>
+-->
+
         </div>
       </footer>
+
+
     </div>
 
     <!-- JS live -->

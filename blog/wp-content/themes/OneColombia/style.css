@@ -21,8 +21,17 @@ html {
   margin-left: 160px;
 }
 #page {
-  background-color: #EFEEED;
+  background-color: #edeeed !important;
   background-image: url("img/bg_red_col.png") !important;
+}
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+      Footer
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+#site-info {
+  background-color: #231B1C;
+}
+#site-info footer {
+  width: 100%;
 }
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
       Hide  -> Sidebar, comments
