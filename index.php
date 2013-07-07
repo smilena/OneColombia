@@ -144,24 +144,11 @@ foreach($pm as $p) {
         // print $print_custom_field('imagen_miembros');
         print $pc['post_title'] . "<br>";
         print $pc['imagen_miembros'] . "<br>";
-        get_the_post_thumbnail($pc['imagen_miembros'], 'thumbnail');
+
+        $attachment_id = $pc['imagen_miembros'];
+        wp_get_attachment_image( $attachment_id, "full" );
         //print_r($pc); // <-- prints out all available fields, both built-in and custom fields
 }
-
-$args = array( 'post_type' => 'miembros', 'posts_per_page' => 3 );
-$loops = new WP_Query( $args );
-while ( $loops->have_posts() ) : $loops->the_post(); ?>
-
-    <div class="home-entry">
-   <?php if ( has_post_thumbnail()) : ?>
-   <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
-   <?php the_post_thumbnail('imagen_miembros'); ?>
-   </a>
-   <?php endif; ?>
-    <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-
-  </div>
-<?php endwhile;
 
 
 ?>
