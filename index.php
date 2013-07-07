@@ -83,7 +83,7 @@
   foreach($pm as $p) {
           $pc = get_post_complete($p->ID);
           echo "<div>";
-          print_r( $image = wp_get_attachment_image( $pc['imagen_miembros'], 100 ) );
+          print_r( $image = wp_get_attachment_image( $pc['imagen_miembros'], array(100) ) );
           echo "</div>";
           //print_r($pc); // <-- prints out all available fields, both built-in and custom fields
   }
