@@ -43,7 +43,9 @@
             $myposts = get_posts( $args );
             foreach( $myposts as $post ) :  setup_postdata($post); ?>
             <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a>
-           <?php the_post_thumbnail(array(100)); ?>
+
+            <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>">
+           <?php the_post_thumbnail(array(100)); ?></a>
             <?php endforeach; ?>
         </div>
         <nav>
@@ -77,7 +79,7 @@
       <div id="comunity">
         <h4>Comunidad Mozilla</h4>
 <?php
-$args = array( 'post_type' => 'miembros', 'posts_per_page' => 5, 'orderby' => 'rand' );
+$args = array( 'post_type' => 'miembros', 'posts_per_page' => 6, 'orderby' => 'rand' );
   $pm = get_posts( $args );
 
   foreach($pm as $p) {
