@@ -148,6 +148,22 @@ foreach($pm as $p) {
         //print_r($pc); // <-- prints out all available fields, both built-in and custom fields
 }
 
+$args = array( 'post_type' => 'miembros', 'posts_per_page' => 3 );
+$loops = new WP_Query( $args );
+while ( $loops->have_posts() ) : $loops->the_post(); ?>
+
+    <div class="home-entry">
+   <?php if ( has_post_thumbnail()) : ?>
+   <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
+   <?php the_post_thumbnail('featured-home-thumb'); ?>
+   </a>
+   <?php endif; ?>
+    <h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+
+  </div>
+<?php endwhile;
+
+
 ?>
 
 </pre>
