@@ -109,6 +109,111 @@ a {
 	margin-top: 15px;
 }
 
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
+			Social
+\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+#social {
+    margin-top: 47px;
+    position: absolute;
+    right: 0;
+    width: 268px;
+}
+#social li {
+    float: left;
+    height: 29px;
+    margin: 0 0 12px 10px;
+    opacity: 0.8;
+    width: 28px;
+    list-style: none;
+}
+#social li:hover {
+    opacity: 1;
+}
+#social a {
+    display: block;
+    height: 29px;
+    text-indent: -10000em;
+    width: 28px;
+}
+
+.flip1 {
+	@time : 1s;
+	-webkit-transition: all @time ease;
+	-moz-transition: all @time ease;
+	-o-transition: all @time ease;
+	-ms-transition: all @time ease;
+	transition: all @time ease;
+}
+.flip2 {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+a#twitter-icon {
+    background: url("../img/social/twitter-icon28.png") no-repeat scroll 0 0 transparent;
+    .flip1;
+}
+a#twitter-icon:hover {
+    background: url("../img/social/twitter-icon28b.png") no-repeat scroll 0 0 transparent;
+    .flip2;
+}
+
+a#facebook-icon {
+    background: url("../img/social/facebook-icon28.png") no-repeat scroll 0 0 transparent;
+	.flip1;
+}
+a#facebook-icon:hover {
+    background: url("../img/social/facebook-icon28b.png") no-repeat scroll 0 0 transparent;
+	.flip2;
+}
+
+a#gplus-icon {
+    background: url("../img/social/gplus-icon28.png") no-repeat scroll 0 0 transparent;
+    .flip1;
+}
+a#gplus-icon:hover {
+    background: url("../img/social/gplus-icon28b.png") no-repeat scroll 0 0 transparent;
+    .flip2;
+}
+
+a#youtube-icon {
+    background: url("../img/social/youtube-icon28.png") no-repeat scroll 0 0 transparent;
+    .flip1;
+}
+a#youtube-icon:hover {
+    background: url("../img/social/youtube-icon28b.png") no-repeat scroll 0 0 transparent;
+    .flip2;
+}
+
+a#flickr-icon {
+    background: url("../img/social/flickr-icon28.png") no-repeat scroll 0 0 transparent;
+    .flip1;
+}
+a#flickr-icon:hover {
+    background: url("../img/social/flickr-icon28b.png") no-repeat scroll 0 0 transparent;
+    .flip2;
+}
+
+a#rss-icon {
+    background: url("../img/social/rss-icon28.png") no-repeat scroll 0 0 transparent;
+    .flip1;
+}
+a#rss-icon:hover {
+    background: url("../img/social/rss-icon28b.png") no-repeat scroll 0 0 transparent;
+    .flip2;
+}
+
+a#twitter-icon:hover, a#rss-icon:hover, a#flickr-icon:hover, a#gplus-icon:hover, a#facebook-icon:hover, a#youtube-icon:hover {
+    opacity: 1;
+}
+
+
+
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
 			Mosaico
 \* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -124,6 +229,9 @@ a {
 		float: left;
 	}
 }
+
+
+
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
 			Content
 \* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -320,16 +428,16 @@ a {
 	}
 }
 
-
-
-#prod_01 {
-	background-image: url(../img/prod/badge.png);
-	background-position: 0 0; width: 110px; height: 59px;
-
+.productos {
 	-webkit-transition: background-position .3s ease;
 	   -moz-transition: background-position .3s ease;
 	     -o-transition: background-position .3s ease;
 	        transition: background-position .3s ease;
+}
+
+#prod_01 {
+	background-image: url(../img/prod/badge.png);
+	background-position: 0 0; width: 110px; height: 59px;
 }
 #prod_01:hover {
 	background-position: 0 -109px; width: 110px; height: 59px;
@@ -338,11 +446,6 @@ a {
 #prod_02 {
 	background-image: url(../img/prod/badge.png);
 	background-position: 0 -218px; width: 110px; height: 59px;
-
-	-webkit-transition: background-position .3s ease;
-	   -moz-transition: background-position .3s ease;
-	     -o-transition: background-position .3s ease;
-	        transition: background-position .3s ease;
 }
 #prod_02:hover {
 	background-position: 0 -327px; width: 110px; height: 59px;
@@ -351,11 +454,6 @@ a {
 #prod_03 {
 	background-image: url(../img/prod/badge.png);
 	background-position: 0 -436px; width: 110px; height: 59px;
-
-	-webkit-transition: background-position .3s ease;
-	   -moz-transition: background-position .3s ease;
-	     -o-transition: background-position .3s ease;
-	        transition: background-position .3s ease;
 }
 #prod_03:hover {
 	background-position: 0 -545px; width: 110px; height: 59px;
@@ -364,11 +462,6 @@ a {
 #prod_04 {
 	background-image: url(../img/prod/badge.png);
 	background-position: 0 -654px; width: 110px; height: 59px;
-
-	-webkit-transition: background-position .3s ease;
-	   -moz-transition: background-position .3s ease;
-	     -o-transition: background-position .3s ease;
-	        transition: background-position .3s ease;
 }
 #prod_04:hover {
 	background-position: 0 -763px; width: 110px; height: 59px;
@@ -377,11 +470,6 @@ a {
 #prod_05 {
 	background-image: url(../img/prod/badge.png);
 	background-position: 0 -872px; width: 110px; height: 59px;
-
-	-webkit-transition: background-position .3s ease;
-	   -moz-transition: background-position .3s ease;
-	     -o-transition: background-position .3s ease;
-	        transition: background-position .3s ease;
 }
 #prod_05:hover {
 	background-position: 0 -981px; width: 110px; height: 59px;
@@ -390,11 +478,6 @@ a {
 #prod_06 {
 	background-image: url(../img/prod/badge.png);
 	background-position: 0 -1090px; width: 110px; height: 59px;
-
-	-webkit-transition: background-position .3s ease;
-	   -moz-transition: background-position .3s ease;
-	     -o-transition: background-position .3s ease;
-	        transition: background-position .3s ease;
 }
 #prod_06:hover {
 	background-position: 0 -1199px; width: 110px; height: 59px;

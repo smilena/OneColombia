@@ -33,7 +33,20 @@
         <div id="logo-mc"></div>
         <h1><?php echo get_bloginfo('name'); ?></h1>
         <h2><?php echo get_bloginfo('description'); ?></h2>
+
+        <div id="social">
+          <ul>
+            <li><a href="http://twitter.com/mozilla_hispano" id="twitter-icon" class="flip" title="Síguenos en Twitter">Síguenos en Twitter</a></li>
+            <li><a href="http://www.facebook.com/mozillahispano" id="facebook-icon" class="flip" title="Síguenos en Facebook">Síguenos en Facebook</a></li>
+            <li><a href="https://plus.google.com/113725577998863887008/posts" id="gplus-icon" class="flip" title="Síguenos en Google Plus">Síguenos en Google Plus</a></li>
+            <li><a href="http://www.youtube.com/mozillahispano" id="youtube-icon" class="flip" title="Nuestros vídeos en YouTube">Nuestros vídeos en YouTube</a></li>
+            <li><a href="http://www.flickr.com/photos/tags/mozillahispano/" id="flickr-icon" class="flip" title="Nuestros fotos en Flickr">Nuestras fotos en Flickr</a></li>
+            <li><a href="http://feeds.mozilla-hispano.org/mozillahispano" id="rss-icon" class="flip" title="Feed RSS">Feed RSS</a></li>
+          </ul>
+        </div>
       </header>
+
+
       <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 			Contenido     :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
       <div id="mosaico"></div>
@@ -100,14 +113,14 @@ $args = array( 'post_type' => 'miembros', 'posts_per_page' => 6, 'orderby' => 'r
 			Productos	 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
       <div id="products">
         <h4>Productos Mozilla</h4>
-        <div id="prod_01"><a href="https://www.mozilla.org/firefox/" target="BLANK"></a></div>
-        <div id="prod_02"><a href="http://www.mozilla.org/firefox/os/"
+        <div id="prod_01" class="productos"><a href="https://www.mozilla.org/firefox/" target="BLANK"></a></div>
+        <div id="prod_02" class="productos"><a href="http://www.mozilla.org/firefox/os/"
 
             target="BLANK"></a></div>
-        <div id="prod_03"><a href="https://www.mozilla.org/apps/" target="BLANK"></a></div>
-        <div id="prod_04"><a href="https://www.mozilla.org/persona/" target="BLANK"></a></div>
-        <div id="prod_05"><a href="https://www.mozilla.org/thunderbird/" target="BLANK"></a></div>
-        <div id="prod_06"><a href="https://webmaker.org/" target="BLANK"></a></div>
+        <div id="prod_03" class="productos"><a href="https://www.mozilla.org/apps/" target="BLANK"></a></div>
+        <div id="prod_04" class="productos"><a href="https://www.mozilla.org/persona/" target="BLANK"></a></div>
+        <div id="prod_05" class="productos"><a href="https://www.mozilla.org/thunderbird/" target="BLANK"></a></div>
+        <div id="prod_06" class="productos"><a href="https://webmaker.org/" target="BLANK"></a></div>
       </div>
 
       <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
