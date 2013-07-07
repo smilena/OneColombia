@@ -77,8 +77,8 @@
       <div id="comunity">
         <h4>Comunidad Mozilla</h4>
 <?php
-
-  $pm = get_posts(array('post_type'=>'miembros'));
+$args = array( 'post_type' => 'miembros', 'posts_per_page' => 5, 'orderby' => 'rand' );
+  $pm = get_posts( $args );
 
   foreach($pm as $p) {
           $pc = get_post_complete($p->ID);
