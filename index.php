@@ -144,7 +144,8 @@ foreach($pm as $p) {
         // print $print_custom_field('imagen_miembros');
         print $pc['post_title'] . "<br>";
         print $pc['imagen_miembros'] . "<br>";
-        print_r($pc); // <-- prints out all available fields, both built-in and custom fields
+        print get_the_post_thumbnail($pc['imagen_miembros'], 'thumbnail');
+        //print_r($pc); // <-- prints out all available fields, both built-in and custom fields
 }
 
 ?>
