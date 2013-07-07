@@ -271,11 +271,11 @@ a:active {
   width: 28px;
 }
 .flip1 {
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .flip2 {
   -webkit-transform: rotate(360deg);
@@ -284,16 +284,19 @@ a:active {
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
+.flip {
+  background: url(../img/social/social.png) no-repeat top left;
+}
 a#twitter-icon {
-  background: url("../img/social/twitter-icon28.png") no-repeat scroll 0 0 transparent;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  background-position: 0 -239px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 a#twitter-icon:hover {
-  background: url("../img/social/twitter-icon28b.png") no-repeat scroll 0 0 transparent;
+  background-position: 0 -269px;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
@@ -301,15 +304,15 @@ a#twitter-icon:hover {
   transform: rotate(360deg);
 }
 a#facebook-icon {
-  background: url("../img/social/facebook-icon28.png") no-repeat scroll 0 0 transparent;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  background-position: 0 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 a#facebook-icon:hover {
-  background: url("../img/social/facebook-icon28b.png") no-repeat scroll 0 0 transparent;
+  background-position: 0 -30px;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
@@ -317,15 +320,15 @@ a#facebook-icon:hover {
   transform: rotate(360deg);
 }
 a#gplus-icon {
-  background: url("../img/social/gplus-icon28.png") no-repeat scroll 0 0 transparent;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  background-position: 0 -120px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 a#gplus-icon:hover {
-  background: url("../img/social/gplus-icon28b.png") no-repeat scroll 0 0 transparent;
+  background-position: 0 -149px;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
@@ -333,15 +336,15 @@ a#gplus-icon:hover {
   transform: rotate(360deg);
 }
 a#youtube-icon {
-  background: url("../img/social/youtube-icon28.png") no-repeat scroll 0 0 transparent;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  background-position: 0 -299px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 a#youtube-icon:hover {
-  background: url("../img/social/youtube-icon28b.png") no-repeat scroll 0 0 transparent;
+  background-position: 0 -329px;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
@@ -349,15 +352,15 @@ a#youtube-icon:hover {
   transform: rotate(360deg);
 }
 a#flickr-icon {
-  background: url("../img/social/flickr-icon28.png") no-repeat scroll 0 0 transparent;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  background-position: 0 -60px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 a#flickr-icon:hover {
-  background: url("../img/social/flickr-icon28b.png") no-repeat scroll 0 0 transparent;
+  background-position: 0 -90px;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
@@ -365,15 +368,15 @@ a#flickr-icon:hover {
   transform: rotate(360deg);
 }
 a#rss-icon {
-  background: url("../img/social/rss-icon28.png") no-repeat scroll 0 0 transparent;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  background-position: 0 -179px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 a#rss-icon:hover {
-  background: url("../img/social/rss-icon28b.png") no-repeat scroll 0 0 transparent;
+  background-position: 0 -209px;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);

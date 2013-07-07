@@ -36,12 +36,12 @@
 
         <div id="social">
           <ul>
-            <li><a href="http://twitter.com/mozilla_hispano" id="twitter-icon" class="flip" title="Síguenos en Twitter">Síguenos en Twitter</a></li>
-            <li><a href="http://www.facebook.com/mozillahispano" id="facebook-icon" class="flip" title="Síguenos en Facebook">Síguenos en Facebook</a></li>
-            <li><a href="https://plus.google.com/113725577998863887008/posts" id="gplus-icon" class="flip" title="Síguenos en Google Plus">Síguenos en Google Plus</a></li>
-            <li><a href="http://www.youtube.com/mozillahispano" id="youtube-icon" class="flip" title="Nuestros vídeos en YouTube">Nuestros vídeos en YouTube</a></li>
-            <li><a href="http://www.flickr.com/photos/tags/mozillahispano/" id="flickr-icon" class="flip" title="Nuestros fotos en Flickr">Nuestras fotos en Flickr</a></li>
-            <li><a href="http://feeds.mozilla-hispano.org/mozillahispano" id="rss-icon" class="flip" title="Feed RSS">Feed RSS</a></li>
+            <li><a href="" id="twitter-icon" class="flip" title="Síguenos en Twitter">Síguenos en Twitter</a></li>
+            <li><a href="" id="facebook-icon" class="flip" title="Síguenos en Facebook">Síguenos en Facebook</a></li>
+            <li><a href="" id="gplus-icon" class="flip" title="Síguenos en Google Plus">Síguenos en Google Plus</a></li>
+            <li><a href="" id="youtube-icon" class="flip" title="Nuestros vídeos en YouTube">Nuestros vídeos en YouTube</a></li>
+            <li><a href="" id="flickr-icon" class="flip" title="Nuestros fotos en Flickr">Nuestras fotos en Flickr</a></li>
+            <li><a href="" id="rss-icon" class="flip" title="Feed RSS">Feed RSS</a></li>
           </ul>
         </div>
       </header>

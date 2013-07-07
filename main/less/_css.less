@@ -139,7 +139,7 @@ a {
 }
 
 .flip1 {
-	@time : 1s;
+	@time : 0.5s;
 	-webkit-transition: all @time ease;
 	-moz-transition: all @time ease;
 	-o-transition: all @time ease;
@@ -147,64 +147,70 @@ a {
 	transition: all @time ease;
 }
 .flip2 {
-	-webkit-transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	transform: rotate(360deg);
+	@rot : 360deg;
+	-webkit-transform: rotate( @rot ) ;
+	-moz-transform: rotate( @rot );
+	-o-transform: rotate( @rot );
+	-ms-transform: rotate( @rot );
+	transform: rotate( @rot );
+}
+.flip {
+	background: url(../img/social/social.png) no-repeat top left;
 }
 
+
 a#twitter-icon {
-    background: url("../img/social/twitter-icon28.png") no-repeat scroll 0 0 transparent;
+background-position:0 -239px;
     .flip1;
 }
 a#twitter-icon:hover {
-    background: url("../img/social/twitter-icon28b.png") no-repeat scroll 0 0 transparent;
+background-position:0 -269px;
     .flip2;
 }
 
+
 a#facebook-icon {
-    background: url("../img/social/facebook-icon28.png") no-repeat scroll 0 0 transparent;
+background-position:0 0;
 	.flip1;
 }
 a#facebook-icon:hover {
-    background: url("../img/social/facebook-icon28b.png") no-repeat scroll 0 0 transparent;
+background-position:0 -30px;
 	.flip2;
 }
 
 a#gplus-icon {
-    background: url("../img/social/gplus-icon28.png") no-repeat scroll 0 0 transparent;
+background-position:0 -120px;
     .flip1;
 }
 a#gplus-icon:hover {
-    background: url("../img/social/gplus-icon28b.png") no-repeat scroll 0 0 transparent;
+background-position:0 -149px;
     .flip2;
 }
 
 a#youtube-icon {
-    background: url("../img/social/youtube-icon28.png") no-repeat scroll 0 0 transparent;
+background-position:0 -299px;
     .flip1;
 }
 a#youtube-icon:hover {
-    background: url("../img/social/youtube-icon28b.png") no-repeat scroll 0 0 transparent;
+background-position:0 -329px;
     .flip2;
 }
 
 a#flickr-icon {
-    background: url("../img/social/flickr-icon28.png") no-repeat scroll 0 0 transparent;
+background-position:0 -60px;
     .flip1;
 }
 a#flickr-icon:hover {
-    background: url("../img/social/flickr-icon28b.png") no-repeat scroll 0 0 transparent;
+background-position:0 -90px;
     .flip2;
 }
 
 a#rss-icon {
-    background: url("../img/social/rss-icon28.png") no-repeat scroll 0 0 transparent;
+background-position:0 -179px;
     .flip1;
 }
 a#rss-icon:hover {
-    background: url("../img/social/rss-icon28b.png") no-repeat scroll 0 0 transparent;
+background-position:0 -209px;
     .flip2;
 }
 
