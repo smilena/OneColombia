@@ -17,6 +17,10 @@ Version:        1.0
 #masthead hgroup {
   margin-left: 160px;
 }
+#page {
+  background-color: #edeeed;
+  background-image: url("img/bg_red_col.png") !important;
+}
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
       Hide  -> Sidebar, comments
 \* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
