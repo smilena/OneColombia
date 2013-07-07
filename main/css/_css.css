@@ -263,7 +263,7 @@ a:active {
 \* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 #banner-news {
   background-color: #728089;
-  background-image: url("../img/bg.png");
+  opacity: 0.96;
   height: 120px;
   top: -104px;
   position: absolute !important;
