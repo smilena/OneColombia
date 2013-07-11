@@ -1,31 +1,38 @@
 <?php $theme_options = onemozilla_get_theme_options(); ?>
 
   </main><!-- #content -->
+
 </div></div><!-- /.wrap /#page -->
 
-<footer id="site-info" role="contentinfo">
-  <div class="wrap">
-    <p id="foot-logo">
-      <a class="top" href="#page"><?php _e('Return to top', 'onemozilla'); ?></a>
-      <a class="logo" href="http://mozilla.org" rel="external">Mozilla</a>
-    </p>
-<!--
-    <p id="colophon">
-      <?php printf(__('Except where otherwise <a href="%1s" rel="external">noted</a>, content on this site is licensed under the <a href="%2s" rel="external license">Creative Commons Attribution Share-Alike License v3.0</a> or any later version.', 'onemozilla'), esc_attr('http://www.mozilla.org/en-US/about/legal.html#site'), esc_attr('http://creativecommons.org/licenses/by-sa/3.0/') ); ?>
-    </p>
 
-    <nav id="nav-meta">
-      <ul role="navigation">
-        <li><a href="https://www.mozilla.org/contact/" rel="external"><?php _e('Contact Us', 'onemozilla'); ?></a></li>
-        <li><a href="https://www.mozilla.org/en-US/privacy/" rel="external"><?php _e('Privacy Policy', 'onemozilla'); ?></a></li>
-        <li><a href="https://www.mozilla.org/en-US/about/legal.html" rel="external"><?php _e('Legal Notices', 'onemozilla'); ?></a></li>
-        <li><a href="https://www.mozilla.org/en-US/legal/fraud-report/index.html" rel="external"><?php _e('Report Trademark Abuse', 'onemozilla'); ?></a></li>
-        <li><a href="https://github.com/mozilla/One-Mozilla-blog/" rel="external"><?php _e('Theme Code ', 'onemozilla'); ?></a></li>
-      </ul>
-    </nav>
--->
-  </div>
-</footer>
+
+      <!-- :::::: Footer -->
+      <div id="footer-wrap">
+          <footer id="colophon">
+
+            <div class="row">
+              <div class="footer-logo">
+                <a target="_blank" href="http://mozilla.org"> <img alt="mozilla" src="//mozorg.cdn.mozilla.net/media/img/sandstone/footer-mozilla.png"></a>
+              </div>
+
+              <div class="footer-license">
+                <a target="_blank" href="http://www.mozilla.org/es-AR/about/manifesto/">
+                   ... Creamos comunidades de personas dedicadas a lograr una mejor experiencia en Internet para todos. ... &nbsp;&nbsp;&nbsp;¿Conoces el manifiesto de Mozilla?
+                </a>
+              </div>
+
+              <div class="footer-nav">
+                <a target="_blank" href="http://www.mozilla.org/mission/">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/love-the-web.png" alt="">
+                </a>
+              </div>
+
+            </div>
+        </footer>
+      </div>
+    </div><!-- END Footer -->
+
+
 
 <script src="//mozorg.cdn.mozilla.net/es/tabzilla/tabzilla.js"></script>
 

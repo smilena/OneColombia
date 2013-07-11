@@ -6,7 +6,6 @@ Light Gray    #f9f9f9
 Link          #2983c8
 Hover         #20679e
 */
-/*@import url("../../OneMozilla/style.css");*/
 
 html {
   background: #edeeed !important;
@@ -15,6 +14,15 @@ html {
 #page {
   background-color: #edeeed !important;
   background-image: url("../img/bg_red_col.png") !important;
+}
+
+#masthead {
+  background-position: 5px center;
+  background-size: 180px auto;
+
+ }
+#masthead hgroup {
+  margin-left: 160px;
 }
 
 #site-description {

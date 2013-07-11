@@ -1,6 +1,6 @@
 @import url("../OneMozilla/style.css");
 
-@import url("ronce.css");
+
 /*
 Theme Name:     OneColombia
 Description:    Site theme for The Mozilla Colombia Comunity. This theme is a child of the One Mozilla WordPress theme.
@@ -8,59 +8,9 @@ Author:         Maycoll (MiguelDavidQ)
 Template:       OneMozilla
 Version:        1.0
 */
+
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
 			One Mozilla
 \* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-html {
-  background: #f9f9f9;
-}
-#masthead {
-  background-position: left top;
-}
-#masthead hgroup {
-  margin-left: 160px;
-}
-#page {
-  background-color: #edeeed !important;
-  background-image: url("img/bg_red_col.png") !important;
-}
-/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
-      Footer
-\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-#site-info {
-  background-color: #231B1C;
-}
-#site-info footer {
-  width: 100%;
-}
-/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
-      Hide  -> Sidebar, comments
-\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-.page-id-4 #comments,
-.page-id-4 #content-sub {
-  display: none;
-}
-.page-id-4 #content-main {
-  width: 100%;
-}
-.page-id-12 #comments,
-.page-id-12 #content-sub {
-  display: none;
-}
-.page-id-12 #content-main {
-  width: 100%;
-}
-.page-id-6 #comments,
-.page-id-6 #content-sub {
-  display: none;
-}
-.page-id-6 #content-main {
-  width: 100%;
-}
-.page-id-19 #comments,
-.page-id-19 #content-sub {
-  display: none;
-}
-.page-id-19 #content-main {
-  width: 100%;
-}
+@import url("css/ronce.css");
+@import url("css/_OneColombia.css");
