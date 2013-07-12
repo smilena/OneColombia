@@ -108,13 +108,34 @@
           <a href="./blog/comunidad/" class="button_colabora">PARTICIPA &nbsp;►</a>
 
           <!-- Facebook -->
-          <div class="fb-like" data-href="http://facebook.com/mozillacolombia" data-send="false" data-width="300" data-show-faces="false"></div>
-
-          <!-- Tweeter -->
-          <a class="twitter-timeline"  href="https://twitter.com/mozillacolombia"  data-widget-id="355369031546589184" data-tweet-limit="1" width="300px" height="300px"  data-chrome="nofooter noheader" ></a>
+          <!-- <div class="fb-like" data-href="http://facebook.com/mozillacolombia" data-send="false" data-width="300" data-show-faces="false"></div> -->
+          <div class="fb-like"
+                data-href="http://facebook.com/mozillacolombia"
+                data-send="false"
+                data-layout="button_count"
+                data-width="100"
+                data-show-faces="false" ></div>
 
           <!-- Twitter-->
-          <a href="https://twitter.com/MozillaColombia" class="twitter-follow-button" data-show-count="false" data-lang="es" data-dnt="true">Seguir a @MozillaColombia</a>
+          <a href="https://twitter.com/MozillaColombia"
+                class="twitter-follow-button"
+                data-show-count="false"
+                data-lang="es"
+                data-dnt="true"
+                data-show-count="true"
+                width="150px"
+                >Seguir a @MozillaColombia</a>
+
+          <!-- Tweeter -->
+          <a class="twitter-timeline"
+              href="https://twitter.com/mozillacolombia"
+              data-widget-id="355369031546589184"
+              data-tweet-limit="1"
+              width="300px"
+              height="300px"
+              data-chrome="nofooter noheader"
+               ></a>
+
 
           </div>
 
