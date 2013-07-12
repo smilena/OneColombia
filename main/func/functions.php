@@ -1,7 +1,8 @@
 <?php
 
-function comunidad () {
 
+/* Get Comunity members */
+function comunidad () {
 
     $role_filter = array(
                  'Administrator',
@@ -33,5 +34,6 @@ function comunidad () {
         if($i==6) break;
       }
 
-
 }
+
+

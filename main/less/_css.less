@@ -108,7 +108,7 @@ a {
 #logo-mc {
     .col ( 2, first );
 
-    background-image: url("../img/logo2.png");
+    background-image: url("../img/logo23.png");
     background-repeat: no-repeat;
     height: 110px;
     margin-top: 15px;
@@ -133,120 +133,6 @@ a {
   display: block;
   width: 100%;
   height: 45px;
-}
-
-
-
-/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: *\
-            Social
-\* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-#social {
-    bottom: 0;
-    margin-top: 47px;
-    position: fixed;
-    right: 0;
-    width: 268px;
-    z-index: 100;
-}
-#social ul {
-    padding: 0;
-}
-#social li {
-    float: left;
-    height: 29px;
-    margin: 0 0 12px 10px;
-    opacity: 0.8;
-    width: 28px;
-    list-style: none;
-}
-#social li:hover {
-    opacity: 1;
-}
-#social a {
-    display: block;
-    height: 29px;
-    text-indent: -10000em;
-    width: 28px;
-}
-
-.flip1 {
-    @time : 0.5s;
-    -webkit-transition: all @time ease;
-    -moz-transition: all @time ease;
-    -o-transition: all @time ease;
-    -ms-transition: all @time ease;
-    transition: all @time ease;
-}
-.flip2 {
-    @rot : 360deg;
-    -webkit-transform: rotate( @rot ) ;
-    -moz-transform: rotate( @rot );
-    -o-transform: rotate( @rot );
-    -ms-transform: rotate( @rot );
-    transform: rotate( @rot );
-}
-.flip {
-    background: url(../img/social/social2.png) no-repeat top left;
-}
-
-
-a#twitter-icon {
-background-position:0 -239px;
-    .flip1;
-}
-a#twitter-icon:hover {
-background-position:0 -269px;
-    .flip2;
-}
-
-
-a#facebook-icon {
-background-position:0 0;
-    .flip1;
-}
-a#facebook-icon:hover {
-background-position:0 -30px;
-    .flip2;
-}
-
-a#gplus-icon {
-background-position:0 -120px;
-    .flip1;
-}
-a#gplus-icon:hover {
-background-position:0 -149px;
-    .flip2;
-}
-
-a#youtube-icon {
-background-position:0 -299px;
-    .flip1;
-}
-a#youtube-icon:hover {
-background-position:0 -329px;
-    .flip2;
-}
-
-a#flickr-icon {
-background-position:0 -60px;
-    .flip1;
-}
-a#flickr-icon:hover {
-background-position:0 -90px;
-    .flip2;
-}
-
-a#rss-icon {
-background-position:0 -179px;
-    .flip1;
-}
-a#rss-icon:hover {
-background-position:0 -209px;
-    .flip2;
-}
-
-a#twitter-icon:hover, a#rss-icon:hover, a#flickr-icon:hover, a#gplus-icon:hover, a#facebook-icon:hover, a#youtube-icon:hover {
-    opacity: 1;
 }
 
 
@@ -348,7 +234,48 @@ a#twitter-icon:hover, a#rss-icon:hover, a#flickr-icon:hover, a#gplus-icon:hover,
     }
     .sec2 {
         .col ( 4, m );
+        padding-top: 10px;
 
+        h4 {
+            margin-top: 40px;
+            margin-bottom: 10px;
+            font-size: 14rem;
+            color: #626262;
+        }
+
+        /* ::::::: Eventbrite */
+        .event_list {
+            margin-left: 5px;
+        }
+        .eb_event_list_item:nth-child(n+4) {
+            display: none;
+        }
+        .eb_event_list_item {
+            width: 250px;
+            background-color: #FFF;
+            float: left;
+            font-size: 18rem;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .eb_event_list_item a {
+            color: #8C8C8C;
+        }
+
+        .eb_event_list_title {
+            float: left;
+            width: 100%;
+        }
+        .eb_event_list_date {
+            font-size: 12rem;
+            color: #2B7CA2;
+        }
+        .eb_event_list_time {
+            display: none;
+        }
+        .eb_event_list_location{
+            display: none;
+        }
     }
     .sec3 {
         .col ( 4, l );

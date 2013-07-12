@@ -31,19 +31,6 @@
   <body>
     <div id="wrap">
 
-      <!-- :::::: Social -->
-<!--       <div id="social">
-          <ul>
-            <li><a href="" id="twitter-icon" class="flip" title="Síguenos en Twitter">Síguenos en Twitter</a></li>
-            <li><a href="" id="facebook-icon" class="flip" title="Síguenos en Facebook">Síguenos en Facebook</a></li>
-            <li><a href="" id="gplus-icon" class="flip" title="Síguenos en Google Plus">Síguenos en Google Plus</a></li>
-            <li><a href="" id="youtube-icon" class="flip" title="Nuestros vídeos en YouTube">Nuestros vídeos en YouTube</a></li>
-            <li><a href="" id="flickr-icon" class="flip" title="Nuestros fotos en Flickr">Nuestras fotos en Flickr</a></li>
-            <li><a href="" id="rss-icon" class="flip" title="Feed RSS">Feed RSS</a></li>
-          </ul>
-        </div>
- -->
-
       <!-- :::::: Header -->
       <header id="header">
         <!-- Tabzilla -->
@@ -63,8 +50,6 @@
 
       <!-- ::::::: Mosaico -->
       <div id="mosaico"></div>
-
-
 
       <!-- ::::::: Content -->
       <div id="content">
@@ -98,48 +83,36 @@
             </ul>
           </nav>
         </div>
-        <div class="sec2">
-          &nbsp;&nbsp;&nbsp;
-        </div>
-        <div class="sec3">
 
+        <div class="sec2">
+
+<!--           <div style="width:195px; text-align:center;" ><iframe  src="http://www.eventbrite.es/calendar-widget?eid=7290864171" frameborder="0" height="320" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
+          </div> -->
+
+        <!-- Eventbrite -->
+        <h4>Proximos Eventos:</h4>
+         <div class="event_list"><a href="http://eventbrite.com/org/4284610789"></a></div>
+
+        </div>
+
+        <div class="sec3">
 
           <!-- Colabora-->
           <a href="./blog/comunidad/" class="button_colabora">PARTICIPA &nbsp;►</a>
 
           <!-- Facebook -->
           <!-- <div class="fb-like" data-href="http://facebook.com/mozillacolombia" data-send="false" data-width="300" data-show-faces="false"></div> -->
-          <div class="fb-like"
-                data-href="http://facebook.com/mozillacolombia"
-                data-send="false"
-                data-layout="button_count"
-                data-width="100"
-                data-show-faces="false" ></div>
+          <div class="fb-like" data-href="http://facebook.com/mozillacolombia" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" ></div>
 
           <!-- Twitter-->
-          <a href="https://twitter.com/MozillaColombia"
-                class="twitter-follow-button"
-                data-show-count="false"
-                data-lang="es"
-                data-dnt="true"
-                data-show-count="true"
-                width="150px"
-                >Seguir a @MozillaColombia</a>
+          <a href="https://twitter.com/MozillaColombia" class="twitter-follow-button" data-show-count="false" data-lang="es" data-dnt="true" width="150px" >Seguir a @MozillaColombia</a>
 
           <!-- Tweeter -->
-          <a class="twitter-timeline"
-              href="https://twitter.com/mozillacolombia"
-              data-widget-id="355369031546589184"
-              data-tweet-limit="1"
-              width="300px"
-              height="300px"
-              data-chrome="nofooter noheader"
-               ></a>
-
+          <a class="twitter-timeline" href="https://twitter.com/mozillacolombia" data-widget-id="355369031546589184" data-tweet-limit="1" width="300px" height="300px" data-chrome="nofooter noheader" ></a>
 
           </div>
 
-      </div>
+      </div><!-- END Content -->
 
 
       <!-- :::::: Comunidad -->
@@ -185,10 +158,12 @@
 
             </div>
         </footer>
-      </div>
-    </div><!-- END Footer -->
+      </div><!-- END Footer -->
 
+    </div><!-- END Wrap -->
 
+    <!-- :::::::
+    :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
     <!-- JS live -->
     <!-- // <script src="js/live.js"></script> -->
 
@@ -208,15 +183,37 @@
     <!-- JS Twitter -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-    <!-- Facebook -->
+    <!-- JS Facebook -->
     <script>
           (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
     </script>
+
+    <!-- JS Eventbrite -->
+    <script src="main/js/Eventbrite.jquery.js"></script>
+
+    <!-- JS Eventbrite -->
+    <script>
+
+      $(document).ready(function() {
+        Eventbrite({'app_key': "K3VRRTPS6WTWSAPKCJ"}, function(eb){
+            var options = {
+                'id'    : "4284610789"
+            };
+
+            eb.organizer_list_events( options, function( response ){
+                $('.event_list').html(eb.utils.eventList( response, eb.utils.eventListRow ));
+            });
+        });
+      });
+
+    </script>
+
   </body>
+
 </html>
